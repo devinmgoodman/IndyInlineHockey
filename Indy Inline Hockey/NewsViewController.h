@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FirstViewController.h
 //  Indy Inline Hockey
 //
 //  Created by Devin Goodman on 5/29/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface NewsViewController : UIViewController
 
 
 @end

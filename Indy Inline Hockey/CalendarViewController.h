@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  CalendarViewController.h
 //  Indy Inline Hockey
 //
 //  Created by Devin Goodman on 5/29/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface CalendarViewController : UIViewController
 
 @end
-

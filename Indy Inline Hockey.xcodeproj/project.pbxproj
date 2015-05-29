@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		C5B758EB1B18CCDB00767435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B758EA1B18CCDB00767435 /* main.m */; };
 		C5B758EE1B18CCDB00767435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B758ED1B18CCDB00767435 /* AppDelegate.m */; };
-		C5B758F11B18CCDB00767435 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B758F01B18CCDB00767435 /* FirstViewController.m */; };
-		C5B758F41B18CCDB00767435 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B758F31B18CCDB00767435 /* SecondViewController.m */; };
+		C5B758F11B18CCDB00767435 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B758F01B18CCDB00767435 /* NewsViewController.m */; };
+		C5B758F41B18CCDB00767435 /* UpdatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B758F31B18CCDB00767435 /* UpdatesViewController.m */; };
 		C5B758F71B18CCDB00767435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B758F51B18CCDB00767435 /* Main.storyboard */; };
 		C5B758F91B18CCDB00767435 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B758F81B18CCDB00767435 /* Images.xcassets */; };
 		C5B758FC1B18CCDB00767435 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5B758FA1B18CCDB00767435 /* LaunchScreen.xib */; };
 		C5B759081B18CCDB00767435 /* Indy_Inline_HockeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B759071B18CCDB00767435 /* Indy_Inline_HockeyTests.m */; };
+		C5B759131B18CFBE00767435 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B759121B18CFBE00767435 /* CalendarViewController.m */; };
+		C5B759161B18CFCB00767435 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B759151B18CFCB00767435 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +35,20 @@
 		C5B758EA1B18CCDB00767435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5B758EC1B18CCDB00767435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5B758ED1B18CCDB00767435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C5B758EF1B18CCDB00767435 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C5B758F01B18CCDB00767435 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C5B758F21B18CCDB00767435 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C5B758F31B18CCDB00767435 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C5B758EF1B18CCDB00767435 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		C5B758F01B18CCDB00767435 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		C5B758F21B18CCDB00767435 /* UpdatesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdatesViewController.h; sourceTree = "<group>"; };
+		C5B758F31B18CCDB00767435 /* UpdatesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdatesViewController.m; sourceTree = "<group>"; };
 		C5B758F61B18CCDB00767435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5B758F81B18CCDB00767435 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5B758FB1B18CCDB00767435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C5B759011B18CCDB00767435 /* Indy Inline HockeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indy Inline HockeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B759061B18CCDB00767435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5B759071B18CCDB00767435 /* Indy_Inline_HockeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Indy_Inline_HockeyTests.m; sourceTree = "<group>"; };
+		C5B759111B18CFBE00767435 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		C5B759121B18CFBE00767435 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		C5B759141B18CFCB00767435 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		C5B759151B18CFCB00767435 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +92,15 @@
 			children = (
 				C5B758EC1B18CCDB00767435 /* AppDelegate.h */,
 				C5B758ED1B18CCDB00767435 /* AppDelegate.m */,
-				C5B758EF1B18CCDB00767435 /* FirstViewController.h */,
-				C5B758F01B18CCDB00767435 /* FirstViewController.m */,
-				C5B758F21B18CCDB00767435 /* SecondViewController.h */,
-				C5B758F31B18CCDB00767435 /* SecondViewController.m */,
+				C5B758EF1B18CCDB00767435 /* NewsViewController.h */,
+				C5B758F01B18CCDB00767435 /* NewsViewController.m */,
+				C5B758F21B18CCDB00767435 /* UpdatesViewController.h */,
+				C5B758F31B18CCDB00767435 /* UpdatesViewController.m */,
 				C5B758F51B18CCDB00767435 /* Main.storyboard */,
+				C5B759111B18CFBE00767435 /* CalendarViewController.h */,
+				C5B759121B18CFBE00767435 /* CalendarViewController.m */,
+				C5B759141B18CFCB00767435 /* AboutViewController.h */,
+				C5B759151B18CFCB00767435 /* AboutViewController.m */,
 				C5B758F81B18CCDB00767435 /* Images.xcassets */,
 				C5B758FA1B18CCDB00767435 /* LaunchScreen.xib */,
 				C5B758E81B18CCDB00767435 /* Supporting Files */,
@@ -224,9 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B758F41B18CCDB00767435 /* SecondViewController.m in Sources */,
+				C5B759161B18CFCB00767435 /* AboutViewController.m in Sources */,
+				C5B758F41B18CCDB00767435 /* UpdatesViewController.m in Sources */,
 				C5B758EE1B18CCDB00767435 /* AppDelegate.m in Sources */,
-				C5B758F11B18CCDB00767435 /* FirstViewController.m in Sources */,
+				C5B758F11B18CCDB00767435 /* NewsViewController.m in Sources */,
+				C5B759131B18CFBE00767435 /* CalendarViewController.m in Sources */,
 				C5B758EB1B18CCDB00767435 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

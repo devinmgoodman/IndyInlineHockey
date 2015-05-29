@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  SecondViewController.m
 //  Indy Inline Hockey
 //
 //  Created by Devin Goodman on 5/29/15.
 //  Copyright (c) 2015 Video Venatus. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "UpdatesViewController.h"
 
-@interface FirstViewController ()
+@interface UpdatesViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation UpdatesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
